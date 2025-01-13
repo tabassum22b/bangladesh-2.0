@@ -1,0 +1,83 @@
+.fira-sans-normal {
+    font-family: "Fira Sans", serif;
+
+    font-style: normal;
+}
+
+body {
+    font-family: "Fira Sans", serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 1536px;
+
+}
+
+
+/* shared styles */
+.dark {
+    color: rgb(14, 14, 14);
+}
+
+.bc {
+    background-color: rgb(245, 245, 245);
+}
+
+.btn-primary {
+    color: rgb(255, 255, 255);
+    font-family: fira sans;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 16px 32px 16px 32px;
+    border-radius: 8px;
+    border: none;
+    background: rgb(0, 106, 80);
+}
+
+.head-title {
+    color: rgb(14, 14, 14);
+    font-family: "Fira Sans", serif;
+    font-size: 40px;
+    font-weight: 700;
+    text-align: left;
+
+}
+
+.sec-title {
+    color: rgba(14, 14, 14, 0.8);
+    font-family: Fira Sans;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: left;
+}
+
+.common-des {
+    color: rgba(14, 14, 14, 0.7);
+    font-family: "Fira Sans", serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.btn-2 {
+    color: rgb(255, 255, 255);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 11px 20px 11px 20px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+
+
+}
+
+.mu {
+    margin-top: 0px;
+}
+
