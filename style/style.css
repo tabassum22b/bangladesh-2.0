@@ -574,3 +574,97 @@ tr:hover {
 .done-button:hover {
     background-color: #177e1c;
 }
+/* newsletter section */
+.newsletter {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 80px;
+    border-radius: 24px;
+    background: rgb(198, 228, 214);
+    width: 1276px;
+    height: 548px;
+}
+
+.newsletter-container {
+
+    padding: 80px;
+    text-align: center;
+}
+
+h2 {
+    color: rgb(14, 14, 14);
+    font-family: "Fira Sans", serif;
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 20px;
+
+
+}
+
+p {
+    color: rgba(14, 14, 14, 0.7);
+    font-family: "Fira Sans", serif;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    margin: 16px, 0px;
+    margin-bottom: 30px;
+}
+
+.input-group {
+    display: flex;
+    margin-bottom: 20px;
+    padding: 18px 40px 18px 40px;
+    border: none;
+    border-radius: 8px 0px 0px 8px;
+}
+
+.input-group input {
+    flex: 1;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px 0 0 8px;
+    border-right: none;
+    box-sizing: border-box;
+    font-size: 1em;
+    outline: none;
+}
+
+.input-group button {
+    color: rgb(255, 255, 255);
+    font-family: Fira Sans;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 0px 8px 8px 0px;
+    background: rgb(0, 106, 80);
+    padding: 17px 34px 17px 34px;
+    border: none;
+    border-radius: 0 8px 8px 0;
+    cursor: pointer;
+
+}
+
+.input-group button:hover {
+    background-color: #006400;
+}
+
+.promise {
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.mail {
+    color: rgba(14, 14, 14, 0.3);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: left;
+    width: 600px;
+}
