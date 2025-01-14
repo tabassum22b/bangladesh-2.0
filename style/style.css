@@ -668,3 +668,48 @@ p {
     text-align: left;
     width: 600px;
 }
+/* end section */
+
+footer {
+    background-color: white;
+    width: 1600px;
+    height: 226px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    gap: 32;
+    padding: 50px 160px 50px 160px;
+}
+
+.classend hr {
+    width: 1122px;
+    height: 0;
+    margin: 0px auto;
+    align-self: center;
+    border: 1px solid rgba(14, 14, 14, 0.1);
+}
+
+/* icons */
+
+.icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 25px;
+}
+
+.icons img {
+    width: 32px;
+    height: auto;
+    margin: 0 16px;
+}
+
+.img-1 {
+    margin-left: 0;
+}
+
+.img-3 {
+    margin-right: 0;
+}
